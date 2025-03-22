@@ -16,24 +16,24 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 **A well-structured Flutter project should follow Clean Architecture with layers:**
-        **_**lib/
-        │── core/                 # Core utilities, themes, constants
-        │   ├── error/            # Error handling
-        │   ├── usecases/         # Use case logic
-        │   ├── network/          # API client, Dio or Http setup
-        │── data/                 # Data layer
-        │   ├── datasources/      # Remote & local data sources
-        │   ├── models/           # Data models
-        │   ├── repositories/     # Repository implementations
-        │── domain/               # Business logic layer
-        │   ├── entities/         # Business models (pure Dart classes)
-        │   ├── repositories/     # Repository contracts (abstract classes)
-        │   ├── usecases/         # Business logic (GetExpenses, AddTransaction)
-        │── presentation/         # UI layer
-        │   ├── blocs/            # State management (BLoC or Cubit)
-        │   ├── pages/            # Screens (Dashboard, Add Expense)
-        │   ├── widgets/          # Reusable UI components
-        │── main.dart**_**             # Entry point
+1.         lib/
+2.         │── core/                 # Core utilities, themes, constants
+3.         │   ├── error/            # Error handling
+4.         │   ├── usecases/         # Use case logic
+5.         │   ├── network/          # API client, Dio or Http setup
+6.         │── data/                 # Data layer
+7.         │   ├── datasources/      # Remote & local data sources
+8.         │   ├── models/           # Data models
+9.         │   ├── repositories/     # Repository implementations
+10.         │── domain/               # Business logic layer
+11.         │   ├── entities/         # Business models (pure Dart classes)
+12.         │   ├── repositories/     # Repository contracts (abstract classes)
+13.         │   ├── usecases/         # Business logic (GetExpenses, AddTransaction)
+14.         │── presentation/         # UI layer
+15.         │   ├── blocs/            # State management (BLoC or Cubit)
+16.         │   ├── pages/            # Screens (Dashboard, Add Expense)
+17.         │   ├── widgets/          # Reusable UI components
+18.         │── main.dart         # Entry point
 
     🔹 Features to Include
         ✅ User Authentication (Google Sign-in, Email)
